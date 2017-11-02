@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Touch Gestures</string>
+
+    <string name="clear_button_text">Clear</string>
+    <string name="new_line">\n</string>
+    <string name="experiment">Experiment with Touch Gestures.</string>
+    <string name="zero">0</string>
+    <string name="single_taps">Single Taps:</string>
+    <string name="double_taps">Double Taps:</string>
+    <string name="long_presses">Long Presses:</string>
+    <string name="scrolls">Scrolls:</string>
+    <string name="drags">Drags:</string>
+    <string name="flings">Flings:</string>
+</resources>
