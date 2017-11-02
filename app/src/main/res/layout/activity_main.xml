@@ -14,10 +14,10 @@
     tools:context="edu.orangecoastcollege.cs273.touchgestures.MainActivity">
 
     <ScrollView
+        android:id="@+id/gesturesScrollView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
-        android:id="@+id/gesturesScrollView">
+        android:layout_weight="2">
 
         <TextView
             android:id="@+id/gesturesLogTextView"
@@ -35,5 +35,95 @@
         android:onClick="clearAll"
         android:text="@string/clear_button_text"
         tools:text="@string/clear_button_text"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:text="@string/single_taps"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:text="@string/double_taps"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_row="2"
+            android:text="@string/long_presses"/>
+
+        <TextView
+            android:id="@+id/singleTapTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:text="@string/zero"/>
+
+        <TextView
+            android:id="@+id/doubleTapTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:text="@string/zero"/>
+
+        <TextView
+            android:id="@+id/longPressTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_row="2"
+            android:text="@string/zero"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:text="@string/scrolls"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:text="@string/flings"/>
+
+        <TextView
+            android:id="@+id/scrollTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:text="@string/zero"/>
+
+        <TextView
+            android:id="@+id/flingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:text="@string/zero"/>
+    </GridLayout>
 
 </LinearLayout>
